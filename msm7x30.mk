@@ -127,13 +127,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true \
     debug.sf.hw=1 \
     debug.egl.hw=1 \
-    debug.mdpcomp.logs=0 \
-    hwui.disable_vsync=true
+    debug.composition.type=c2d \
+    persist.hwc.mdpcomp.enable=false \
+    debug.mdpcomp.maxlayer=3 \
+    debug.mdpcomp.logs=0
 
 # Low Power Audio
 PRODUCT_PROPERTY_OVERRIDES += \
-    lpa.decode=false \
-    lpa.use-stagefright=false
+    lpa.decode=true \
+    use.non-omx.mp3.decoder=true
 
 # Resampler quality
 PRODUCT_PROPERTY_OVERRIDES += \
