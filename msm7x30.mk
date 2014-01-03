@@ -163,10 +163,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vold.umsdirtyratio=50
 
-# Fix camcorder
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.camcorder.disablemeta=1
-
 # Use ION uncached buffers for video recording and video playback
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.mem.usecache=0 \
