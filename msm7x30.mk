@@ -166,6 +166,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.camcorder.disablemeta=1
 
+# Use ION uncached buffers for video recording and video playback
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.mem.usecache=0 \
+    persist.video.mem.usecache=0
+
 # Enable repeatable keys in CWM
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cwm.enable_key_repeat=true
