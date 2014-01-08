@@ -96,7 +96,8 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libmm-omxcore \
-    libc2dcolorconvert
+    libc2dcolorconvert \
+    libdashplayer
 
 # Misc
 PRODUCT_PACKAGES += \
