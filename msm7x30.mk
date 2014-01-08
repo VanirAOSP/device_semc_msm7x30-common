@@ -139,6 +139,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true \
     debug.sf.hw=1 \
     debug.egl.hw=1 \
+    debug.egl.recordable.rgba8888=1 \
     debug.composition.type=c2d \
     persist.hwc.mdpcomp.enable=false \
     debug.mdpcomp.maxlayer=3 \
