@@ -17,6 +17,9 @@
 # against the traditional rules of inheritance).
 USE_CAMERA_STUB := true
 
+# for webkit BS
+TARGET_IS_AN_ANTIQUE := TRUE
+
 # inherit from the proprietary version
 -include vendor/semc/msm7x30-common/BoardConfigVendor.mk
 
