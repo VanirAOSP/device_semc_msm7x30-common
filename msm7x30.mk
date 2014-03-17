@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     $(COMMON_PATH)/rootdir/fstab.semc:root/fstab.semc \
     $(COMMON_PATH)/rootdir/init.semc.rc:root/init.semc.rc \
+    $(COMMON_PATH)/rootdir/init.recovery.semc.rc:root/init.recovery.semc.rc \
     $(COMMON_PATH)/rootdir/ueventd.semc.rc:root/ueventd.semc.rc
 
 # Reboot to recovery related scripts
@@ -157,7 +158,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Set default USB interface
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp,adb
+    persist.sys.usb.config=mtp
 
 # Increase speed for UMS transfer
 PRODUCT_PROPERTY_OVERRIDES += \
