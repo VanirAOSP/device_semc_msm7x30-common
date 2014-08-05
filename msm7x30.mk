@@ -112,7 +112,6 @@ PRODUCT_PACKAGES += \
 # QCOM OMX
 PRODUCT_PACKAGES += \
     libstagefrighthw \
-    libmm-omxcore \
     libOmxCore \
     libOmxVdec \
     libOmxVenc \
@@ -164,8 +163,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.hw=1 \
-    debug.egl.hw=1 \
     debug.composition.type=dyn \
     persist.hwc.mdpcomp.enable=false \
     debug.mdpcomp.maxlayer=3 \
