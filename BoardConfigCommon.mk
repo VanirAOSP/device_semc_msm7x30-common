@@ -85,6 +85,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/msm_hsusb/gadget/lun%d
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := \"/sys/class/leds/lcd-backlight/brightness\"
 
 # Kernel
+TARGET_KERNEL_USE_AOSP_TOOLCHAIN := true
 TARGET_NO_KERNEL := false
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
 BOARD_KERNEL_CMDLINE := # This is ignored by sony's bootloader
